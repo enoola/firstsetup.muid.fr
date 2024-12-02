@@ -5,37 +5,39 @@
 # Ubuntu 24.04 srv minimalist
 # 24/11/2024, 13:41
 
-alias apti='apt-get install'
-  
 # system
-apti cpufrequtils
-apti lm-sensors
-apti net-tools
-apti cron
+apt install -y cpufrequtils
+apt install -y lm-sensors
+apt install -y net-tools
+apt install -y cro n
 
 #
-apti htop
+apt install -y htop
 
 # tools
-apti emacs-nox
-apti screen
-apti yq
-apti strace
+apt install -y emacs-nox
+apt install -y screen
+apt install -y yq
+apt install -y strace
 #uses ncurses
-apti dialog
+apt install -y dialog
 
 # metrics
-apti nmon
-apti bmon
-apti nmap
-apti netstat
+apt install -y nmon
+apt install -y bmon
+apt install -y nmap
+apt install -y netstat
 
 # services
-apti qemu-guest-agent
+apt install -y qemu-guest-agent
 # contains dig
-apti bind9-dnsutils 
+apt install -y bind9-dnsutils 
 
 #CPUpower
-apti linux-tools-common
-apti linux-headers-6.8.0-49
-apti linux-tools-6.8.0-49-generic
+apt install -y linux-tools-common
+apt install -y linux-headers-6.8.0-49
+apt install -y linux-tools-6.8.0-49-generic
+
+# editors
+apt install -y nano
+apt install -y emacs-nox

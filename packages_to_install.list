@@ -1,0 +1,26 @@
+# System packages
+cpufrequtils
+lm-sensors
+net-tools
+cron
+# lol
+screen
+yq
+strace
+dialog
+# monitoring
+htop
+nmon
+bmon
+nmap
+# If in a VM
+#qemu-guest-agent
+#This one contains at list dig
+bind9-dnsutils
+netstat
+# CPU management 
+linux-tools-common
+linux-headers-6.8.0-49
+linux-tools-6.8.0-49-generi
+#editor
+nano
